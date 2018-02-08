@@ -9,5 +9,10 @@ describe('Palinedrome') do
       expect(word.reverse()).to(eq("tset"))
     end
 
+    it("return true if a palindrome") do
+      word = Palindrome.new("racecar")
+      expect(word.reverse()).to(eq(true))
+    end
+
   end
 end

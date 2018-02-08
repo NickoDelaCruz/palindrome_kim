@@ -5,5 +5,12 @@ class Palindrome
 
   def reverse
     reversed_word = @word.reverse()
+
+    if reversed_word == @word
+      true
+    else
+      reversed_word
+    end
+
   end
 end
