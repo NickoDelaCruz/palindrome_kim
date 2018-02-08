@@ -4,7 +4,6 @@ class Palindrome
   end
 
   def reverse
-
+    reversed_word = @word.reverse()
   end
-
 end
