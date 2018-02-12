@@ -1,15 +1,15 @@
 class Palindrome
-  def initialize(word)
-    @word = word
+  def initialize(word_one)
+    @word = word_one
   end
 
   def reverse
     reversed_word = @word.reverse()
 
     if reversed_word == @word
-      true
+      "It's a palindrome"
     else
-      reversed_word
+      "Not a palindrome"
     end
 
   end
